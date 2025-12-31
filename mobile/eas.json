@@ -1,0 +1,14 @@
+{
+  "build": {
+    "production": {
+      "ios": {
+        "bundleIdentifier": "com.yourgym.app",
+        "buildType": "release"
+      },
+      "android": {
+        "package": "com.yourgym.app",
+        "buildType": "apk"
+      }
+    }
+  }
+}
