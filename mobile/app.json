@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "Gym Platform",
+    "slug": "gym-platform",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "gymplatform",
+    "userInterfaceStyle": "automatic",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {},
+    "web": {}
+  }
+}
