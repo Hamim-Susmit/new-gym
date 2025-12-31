@@ -4,8 +4,14 @@
     "slug": "gym-platform",
     "version": "1.0.0",
     "orientation": "portrait",
+    "icon": "./assets/icon.png",
     "scheme": "gymplatform",
     "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0f172a"
+    },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
@@ -13,7 +19,14 @@
     "ios": {
       "supportsTablet": true
     },
-    "android": {},
-    "web": {}
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0f172a"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
   }
 }
